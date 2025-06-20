@@ -12,12 +12,7 @@
       <template v-slot:loading>
           <q-inner-loading showing color="primary" />
         </template>
-      <!-- <template v-slot:loading>
-      <div class="text-center q-pa-md">
-        <q-spinner-dots color="primary" size="2em" />
-        <div class="q-mt-sm text-grey">Buscando posts...</div>
-      </div>
-    </template> -->
+     
         <!-- <template v-slot:top-right>
           <q-btn
             color="primary"
