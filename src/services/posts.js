@@ -1,4 +1,4 @@
-import useApi from "src/composables/UseApi"
+import useApi from 'src/composables/UseApi'
 
 export default function postService() {
   const { list, post, update, remove } = useApi('posts')
@@ -7,7 +7,6 @@ export default function postService() {
     list,
     post,
     update,
-    remove
+    remove,
   }
 }
-
