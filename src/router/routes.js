@@ -11,7 +11,7 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: 'pagina-inicial', name: 'home', component: () => import('pages/IndexPage.vue') },
-      { path: 'nova-postagem', name: 'formPost', component: () => import('pages/FormPost.vue') }
+      { path: 'nova-postagem/:id?', name: 'formPost', component: () => import('pages/FormPost.vue') }
     ]
   },
 
